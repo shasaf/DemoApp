@@ -31,7 +31,7 @@ jobs:
     steps:
       - setup_remote_docker
       - *attach_workspace
-      - run: shiftleft image-scan -i /tmp/workspace/demo-app-image.tar
+      - run: shiftleft image-scan -i /tmp/workspace/demo-app-image.tar -r 383041 -e 3e25c1c4-2705-4896-8da4-06998c469d0b
   
   Image-Build:
     docker:
