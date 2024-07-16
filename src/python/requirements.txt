@@ -16,3 +16,4 @@ Django==1.11.22
 django-debug-toolbar==1.6
 django-eventtools==0.9.10
 django-redis==4.6.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
